@@ -6,7 +6,6 @@
 
 // Note: The stringAand the bag, both contain only small case characters
 
-
 // Input
 // The first line of the input containsN, the number of characters in the bag.
 
