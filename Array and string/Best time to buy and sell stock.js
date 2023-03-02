@@ -11,7 +11,5 @@ const sell=(n,arr)=>{
        }
     }
     
-   
-    /
     console.log(max)
 }
