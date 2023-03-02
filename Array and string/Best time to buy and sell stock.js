@@ -15,8 +15,6 @@ const sell=(n,arr)=>{
     //     console.log(Math.abs(buy-sell))
     // }
     
-    // else{
-    //     console.log(0)
-    // }
+    /
     console.log(max)
 }
