@@ -14,6 +14,7 @@ const sell=(n,arr)=>{
     // if(buy!=Infinity &&sell!=0){
     //     console.log(Math.abs(buy-sell))
     // }
+    
     // else{
     //     console.log(0)
     // }
