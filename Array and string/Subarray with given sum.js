@@ -39,3 +39,26 @@
 // Constraints:
 // 1 <= N <= 105
 // 1 <= Ai <= 109
+
+
+///**********************************************************************************************************************************************
+
+    subarraySum(arr, n, s)
+    {
+        //your code here
+        let sum=0
+        for(let i=0;i<n;i++){
+            sum+=arr[i]
+            
+        }
+        let ind=1
+        for(let j=0;j<n;j++){
+            sum-=arr[j]
+            if(sum==s){
+                ind=j
+                break
+            }
+            
+        }
+        return [ind,n-1]
+    }
