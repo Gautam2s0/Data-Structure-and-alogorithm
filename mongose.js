@@ -99,7 +99,8 @@
   "native": "United States",
   "relocate_to": "France",
   "family_members": 1
-}, {
+},
+  {
   "id": 12,
   "full_name": "Cirillo Okenden",
   "age": 39,
