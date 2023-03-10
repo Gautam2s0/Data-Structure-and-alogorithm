@@ -251,7 +251,8 @@
   "native": "United States",
   "relocate_to": "France",
   "family_members": 2
-}, {
+}, 
+ {
   "id": 29,
   "full_name": "Bentley Manshaw",
   "age": 47,
