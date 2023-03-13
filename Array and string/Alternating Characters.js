@@ -33,7 +33,6 @@
 // BABABA
 // AAABBB
 // Sample Output
-
 // 3
 // 4
 // 0
