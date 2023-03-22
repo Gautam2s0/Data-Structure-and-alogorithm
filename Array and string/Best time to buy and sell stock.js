@@ -1,4 +1,3 @@
-
 const sell=(n,arr)=>{
     let buy=Infinity,sell=0,max=0
     for(let i=0;i<n;i++){
