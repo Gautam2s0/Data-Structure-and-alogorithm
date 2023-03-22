@@ -4,7 +4,6 @@
 
 // Adam has to make the stringA, given to him by Alice, with the help of these characters in the bag. Find out if he can make the string or not.
 
-
 // Note: The stringAand the bag, both contain only small case characters
 
 // Input
