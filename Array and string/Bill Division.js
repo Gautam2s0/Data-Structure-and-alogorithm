@@ -57,4 +57,3 @@ let sum=0
     sum-=bill[k]
     const paybleamount=sum/2
     paybleamount<b?console.log(b-paybleamount):console.log("Bon Appetit")
-
