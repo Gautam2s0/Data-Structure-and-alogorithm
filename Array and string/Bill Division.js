@@ -2,6 +2,7 @@
 
 // For example, assume the bill has the following prices: . Anna declines to eat item  which costs . If Brian calculates the bill correctly, Anna will pay . If he includes the cost of , he will calculate . In the second case, he should refund  to Anna.
 
+
 // Function Description
 
 
