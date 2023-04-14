@@ -59,3 +59,4 @@ function alternatingCharacters(s) {
     }
     return count
 } 
+
