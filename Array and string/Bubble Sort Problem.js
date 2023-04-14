@@ -9,3 +9,4 @@ function solve(N,arr){
     console.log(arr.join(" "))
 }
 
+
