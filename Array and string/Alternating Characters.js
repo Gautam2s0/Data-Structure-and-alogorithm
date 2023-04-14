@@ -2,7 +2,6 @@
 
 // Your task is to find the minimum number of required deletions.
 // Example
-
 // Remove an  at positions  and  to make  in  deletions.
 
 // Function Description
