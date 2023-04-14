@@ -23,7 +23,6 @@
 // Each string  will consist only of characters  and .
 // Sample Input
 
-
 // 5
 // AAAA
 // BBBBB
