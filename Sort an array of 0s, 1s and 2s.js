@@ -28,7 +28,6 @@
 // Expected Time Complexity: O(N)
 // Expected Auxiliary Space: O(1)
 
-
 // Constraints:
 // 1 <= N <= 10^6
 // 0 <= A[i] <= 2
