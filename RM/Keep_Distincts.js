@@ -30,3 +30,13 @@
 // Sample Output 1
 
 // iloveprgamn
+// ***************************************************************************************************
+const Distincts=(str)=>{
+    let ans=[]
+    for(let i=0;i<str.length;i++){
+        if(!ans.includes(str[i])){
+            ans.push(str[i])
+        }
+    }
+    console.log(ans.join(""))
+}
