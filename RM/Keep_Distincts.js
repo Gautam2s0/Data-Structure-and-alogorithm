@@ -39,3 +39,4 @@ const Distincts=(str)=>{
     }
     console.log(ans.join(""))
 }
+
