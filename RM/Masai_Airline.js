@@ -4,7 +4,6 @@
 
 // Please note that 15 kgs and 7 kgs are inclusive.
 
-
 // Input
 // Input Format :
 
