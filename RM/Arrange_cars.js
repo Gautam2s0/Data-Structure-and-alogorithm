@@ -37,5 +37,35 @@
 
 // YES
 
+// **************************************************************************************************************
+
+const Arrange_cars=(n,arr)=>{
+    let lane=[],j=1
+    for(let i=0;i<n;i++){
+        if(arr[i]===j){
+            j++
+        }
+        else{
+            while(j===lane[lane.length-1]){
+                lane.pop()
+                j++
+            }
+            lane.push(arr[i])
+        }
+        
+    }
+    for(let i=lane.length-1;i>=0;i--){
+        if(lane[i]===j){
+            lane.pop()
+            j++
+        }
+        else{
+            break
+        }
+    }
+    lane.length>0?console.log("NO"):
+    console.log("YES")
+     
+}
 
 
