@@ -11,7 +11,6 @@
 // string s: a string
 // Returns
 
-
 // int: the minimum number of deletions required
 // Input Format
 
