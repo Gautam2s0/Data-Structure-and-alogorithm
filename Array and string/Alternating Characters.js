@@ -6,6 +6,7 @@
 
 // Complete the alternatingCharacters function in the editor below.
 
+
 // alternatingCharacters has the following parameter(s):
 // string s: a string
 // Returns
