@@ -4,6 +4,7 @@
 // Remove an  at positions  and  to make  in  deletions.
 // Function Description
 
+
 // Complete the alternatingCharacters function in the editor below.
 
 // alternatingCharacters has the following parameter(s):
