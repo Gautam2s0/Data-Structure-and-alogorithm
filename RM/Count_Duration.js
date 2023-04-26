@@ -2,7 +2,6 @@
 
 // Given 4 variables SH,SM,EH and EM  each separated by space(SH=starting hr, SM=starting min, EH=ending hr, EM=ending min), calculate and print the difference between the two times
 
-
 // Input
 // Input Format
 
