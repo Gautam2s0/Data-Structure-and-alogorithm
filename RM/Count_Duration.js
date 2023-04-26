@@ -46,4 +46,3 @@ const CountDuration=(arr)=>{
     h=h2-h1
     console.log(h,min)
 }
-
