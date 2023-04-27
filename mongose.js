@@ -226,7 +226,7 @@
   "native": "United States",
   "relocate_to": "Russia",
   "family_members": 3
-}, {
+}, { 
   "id": 26,
   "full_name": "Rustin Stilly",
   "age": 37,
