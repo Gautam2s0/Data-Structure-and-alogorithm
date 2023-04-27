@@ -39,3 +39,4 @@ const DayOfWeek=(n)=>{
         case 6:{console.log("Saturday"); break}
     }
 }
+ 
