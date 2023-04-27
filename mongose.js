@@ -9,7 +9,7 @@
   "native": "United Kingdom",
   "relocate_to": "France",
   "family_members": 3
-}, {
+}, { 
   "id": 2,
   "full_name": "Niccolo Phethean",
   "age": 22,
