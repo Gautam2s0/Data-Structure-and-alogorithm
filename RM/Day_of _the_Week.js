@@ -13,7 +13,6 @@
 // Output the name of the day based upon the day number, print the name of the day starting with first letter as a capital letter, e.g. Monday
 
 
-
 // Sample Input 1 
 
 // 3
