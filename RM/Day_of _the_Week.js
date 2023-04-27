@@ -6,7 +6,6 @@
 
 // Note: Use switch case to complete this problem
 
-
 // Input 
 // The first line of input contain an integer N
 
