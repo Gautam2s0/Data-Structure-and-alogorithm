@@ -66,4 +66,3 @@ const Arrange_cars=(n,arr)=>{
     console.log("YES")
      
 }
-
