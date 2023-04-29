@@ -67,4 +67,3 @@ const Arrange_cars=(n,arr)=>{
      
 }
 
-
