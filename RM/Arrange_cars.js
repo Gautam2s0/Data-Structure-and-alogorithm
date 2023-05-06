@@ -21,7 +21,7 @@
 // 1 ≤ t ≤ 10^4
 
 // 1 ≤ n ≤ 10^3
-
+ 
 
 // Output
 // Output Format
