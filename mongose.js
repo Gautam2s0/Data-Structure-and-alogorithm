@@ -5,7 +5,7 @@
   "age": 23,
   "gender": "Female",
   "balance": 12083.74,
-  "native": "United Kingdom",
+  "native": "United Kingdom", 
   "relocate_to": "France", 
   "family_members": 3
 }, { 
