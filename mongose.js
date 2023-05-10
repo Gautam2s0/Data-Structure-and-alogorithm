@@ -53,7 +53,7 @@
   "native": "United States",
   "relocate_to": "Russia",
   "family_members": 3
-}, {
+}, { 
   "id": 7,
   "full_name": "Obie Finders",
   "age": 44,
