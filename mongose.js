@@ -12,7 +12,7 @@
   "id": 2,
   "full_name": "Niccolo Phethean",
   "age": 22,
-  "gender": "Female",
+  "gender": "Female", 
   "balance": 57087.13,
   "native": "Japan",
   "relocate_to": "Russia", 
