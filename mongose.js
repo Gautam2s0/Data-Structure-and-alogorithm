@@ -6,7 +6,7 @@
   "gender": "Female",
   "balance": 12083.74,
   "native": "United Kingdom", 
-  "relocate_to": "France", 
+  "relocate_to": "France",  
   "family_members": 3
 }, { 
   "id": 2,
