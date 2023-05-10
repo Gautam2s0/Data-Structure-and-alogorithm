@@ -17,7 +17,7 @@
   "native": "Japan",
   "relocate_to": "Russia",   
   "family_members": 2  
-}, {
+}, { 
   "id": 3,
   "full_name": "Austin Abramson",
   "age": 41,
