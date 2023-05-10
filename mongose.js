@@ -15,7 +15,7 @@
   "gender": "Female", 
   "balance": 57087.13,
   "native": "Japan",
-  "relocate_to": "Russia", 
+  "relocate_to": "Russia",  
   "family_members": 2  
 }, {
   "id": 3,
