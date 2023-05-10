@@ -71,7 +71,7 @@
   "native": "Norway",
   "relocate_to": "Russia",
   "family_members": 1
-}, {
+}, { 
   "id": 9,
   "full_name": "Lissie Jorin",
   "age": 28,
