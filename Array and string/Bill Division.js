@@ -18,7 +18,7 @@
 // The third line contains an integer, , the amount of money that Brian charged Anna for her share of the bill.
  
 // Constraints
-
+ 
 // The amount of money due Anna will always be an integer
 // Output Format
 
