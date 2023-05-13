@@ -11,7 +11,6 @@
 
 
 
-
 const fool=(n,m,arr1,arr2)=>{
     for(let i=0;i<m;i++){
         let times=arr2[i]
