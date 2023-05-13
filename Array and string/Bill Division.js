@@ -11,7 +11,7 @@
 // bill: an array of integers representing the cost of each item ordered
 // k: an integer representing the zero-based index of the item Anna doesn't eat
 // b: the amount of money that Anna contributed to the bill
-// Input Format
+// Input Format 
 
 // The first line contains two space-separated integers  and , the number of items ordered and the -based index of the item that Anna did not eat.
 // The second line contains  space-separated integers  where .
