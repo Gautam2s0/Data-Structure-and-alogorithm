@@ -17,7 +17,7 @@
 
 // Constraints 
 
-// 1 <=N, M<= 10^4
+// 1 <=N, M<= 10^4 
 
 
 // Output
