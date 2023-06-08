@@ -7,6 +7,7 @@
 // You are given the order in which the love mobiles arrive. Write a program that decides if the love mobiles can be brought into the order that the organisers want them to be
  
 
+
 // Input 
 // Input Format
 // The first line of the input contains an integer t — the number of test cases.
