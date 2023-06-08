@@ -8,7 +8,7 @@
  
 
 
-// Input 
+// Input
 // Input Format
 // The first line of the input contains an integer t — the number of test cases.
 
