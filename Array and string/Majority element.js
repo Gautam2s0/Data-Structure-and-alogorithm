@@ -16,7 +16,6 @@
 
 // For each test case, print in a new line a single integer denoting the majority element.
 
-
 // Sample Input 1
 
 // Copy
