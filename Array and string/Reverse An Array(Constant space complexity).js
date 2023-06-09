@@ -30,3 +30,19 @@
 
 // AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
+function runProgram(input) {
+  // Write code here
+  input=input.split("\n")
+  let n=+input[0]
+  let arr=input[1].trim().split(" ").map(Number)
+  let res=""
+  for(let i=n-1;i>=0;i--){
+    if(i==0){
+      res+=`${arr[i]}`
+    }
+    else{
+      res+=`${arr[i]} `
+    }
+  }
+  console.log(res)
+}
