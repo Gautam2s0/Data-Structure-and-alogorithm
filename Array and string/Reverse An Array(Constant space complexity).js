@@ -1,30 +1,30 @@
 
-Description
+// Description
 
-Given an array of integers of length N, write a program to reverse the array with constant space complexity.
+// Given an array of integers of length N, write a program to reverse the array with constant space complexity.
 
-Note: The approach should be a constant space complexity i.e, O(1)
+// Note: The approach should be a constant space complexity i.e, O(1)
 
-Input Description
+// Input Description
 
-Input Format
+// Input Format
 
-First line contains the length of the array N.
+// First line contains the length of the array N.
 
-Second line contains N number of integers separated by spaces.
+// Second line contains N number of integers separated by spaces.
 
-Constraints
+// Constraints
 
-1 <= N<= 100
+// 1 <= N<= 100
 
-Output Description
+// Output Description
 
-Print the reversed array
+// Print the reversed array
 
-Sample Input 1
+// Sample Input 1
 
-6
-1 5 4 3 2 6
-Sample Output 1
-6 2 3 4 5 1
+// 6
+// 1 5 4 3 2 6
+// Sample Output 1
+// 6 2 3 4 5 1
 
