@@ -16,3 +16,7 @@ Second line contains N number of integers separated by spaces.
 Constraints
 
 1 <= N<= 100
+
+Output Description
+
+Print the reversed array
