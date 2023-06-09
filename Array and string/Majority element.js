@@ -32,5 +32,18 @@
 // 1
 // -1
 // HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+const func=(n,arr)=>{
+  let obj={},max=-1,element=arr[0]
+  for(let el of arr){
+    obj[el]?obj[el]++:obj[el]=1
+  }
+  for(let key in obj){
+    if(obj[key]>max){
+      max=obj[key]
+      element=key
+    }
+  }
+  max>n/2?console.log(element):console.log(-1)
+}
 
 
