@@ -2,7 +2,6 @@
 
 // Given an array A having N non-negative integers. Find the element that occurs more than N/2 times. If no such element is there then print -1.
 
-
 // Input Description
 
 // First line: Single integer T denoting the number of test cases.
