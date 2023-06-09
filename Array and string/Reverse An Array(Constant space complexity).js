@@ -20,3 +20,11 @@ Constraints
 Output Description
 
 Print the reversed array
+
+Sample Input 1
+
+6
+1 5 4 3 2 6
+Sample Output 1
+6 2 3 4 5 1
+
