@@ -9,7 +9,7 @@
 
 // Constraints
 
-// N < 100
+// N < 100 
 
 // Output
 // Output Format
