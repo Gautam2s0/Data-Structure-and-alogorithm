@@ -14,7 +14,7 @@
 
 // Sample Input 1 
 
-// 3
+// 3 
 // Sample Output 1
 
 // Wednesday
