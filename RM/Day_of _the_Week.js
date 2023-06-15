@@ -4,7 +4,7 @@
 
  
 // e.g.: 0 - Sunday, 1- Monday, 6 - Saturday etc. 
-
+ 
 // Note: Use switch case to complete this problem
 // Input 
 // The first line of input contain an integer N
