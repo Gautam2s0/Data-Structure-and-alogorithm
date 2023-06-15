@@ -12,7 +12,7 @@
 // N < 100 
 
 // Output
-// Output Format
+// Output Format 
 
 // N lines with duration HH MM(hours and minutes separated by space)
 
