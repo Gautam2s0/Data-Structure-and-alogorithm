@@ -65,4 +65,4 @@ const Arrange_cars=(n,arr)=>{
     lane.length>0?console.log("NO"):
     console.log("YES")
      
-}
+} 
