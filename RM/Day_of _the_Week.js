@@ -2,7 +2,7 @@
 
 // Given an integer N, output the name of the Day based upon the integer day number.
 
-
+ 
 // e.g.: 0 - Sunday, 1- Monday, 6 - Saturday etc.
 
 // Note: Use switch case to complete this problem
