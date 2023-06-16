@@ -1,5 +1,5 @@
 [
-   { 
+{ 
   "id": 2,
   "full_name": "Niccolo Phethean",
   "age": 22,
