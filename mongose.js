@@ -4,7 +4,7 @@
   "full_name": "Ilyssa Pawelek",
   "age": 25,
   "gender": "Female", 
-  "balance": 12083.74,
+  "balance": 12090.74,
   "native": "United Kingdom", 
   "relocate_to": "France",  
   "family_members": 5
