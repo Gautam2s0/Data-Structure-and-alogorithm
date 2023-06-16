@@ -14,7 +14,7 @@
 // N = 3
 // arr[] = {0 1 0}
 // Output:
-// 0 0 1
+// 0 0 1 
 // Explanation:
 // 0s 1s and 2s are segregated 
 // into ascending order.
