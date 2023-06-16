@@ -9,7 +9,6 @@
   "relocate_to": "France",  
   "family_members": 5
 },
-  ,
 { 
   "id": 2,
   "full_name": "Niccolo Phethean",
