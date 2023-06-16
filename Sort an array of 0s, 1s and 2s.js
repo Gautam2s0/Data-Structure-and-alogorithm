@@ -7,7 +7,7 @@
 // 0 0 1 2 2
 // Explanation:
 // 0s 1s and 2s are segregated 
-// into ascending order.
+// into ascending order. 
 // Example 2:
 
 // Input: 
