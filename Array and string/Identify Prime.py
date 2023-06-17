@@ -20,4 +20,4 @@ Sample Input 1
 13
 Sample Output 1
 
-Yes
+Yes 
