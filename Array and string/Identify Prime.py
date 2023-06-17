@@ -24,3 +24,20 @@
 # Hint
 
 # In the sample test case, the value stored innum = 13. Since,13is a prime number, the output isYes
+
+
+def identifyPrime(n):
+  #write Code
+  result="Yes"
+  if n<2:
+      print("No")
+      return
+  for i in range(2,int(n/2+1)):
+      if(n%i==0):
+          result="No"
+          break
+      
+  print(result)
+      
+      
+
