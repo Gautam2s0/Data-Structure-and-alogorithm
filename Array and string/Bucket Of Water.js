@@ -7,7 +7,7 @@
 // Input Format:- 
 
 // The input contains the number of testcases T, then T testcases follows
- 
+  
 // The first line of the input contains single integerN, the number of buckets.
  
 // The second line of the input contains N space-separated integers, a[0], a[1], ..., a[N-1].
