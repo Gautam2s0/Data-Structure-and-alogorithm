@@ -46,7 +46,7 @@
 
 // TestCase 1:There are already 2 buckets, so the answer is "YES".
 
-// TestCase 2:We cannot pour all the water into two buckets. answer is "NO".
+// TestCase 2:We cannot pour all the water into two buckets. answer is "NO". 
 
 *************************************************************************************************************************************************************
   
