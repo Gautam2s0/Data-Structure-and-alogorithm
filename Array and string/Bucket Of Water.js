@@ -4,7 +4,7 @@
 
  
 // Input
-// Input Format:-
+// Input Format:- 
 
 // The input contains the number of testcases T, then T testcases follows
  
