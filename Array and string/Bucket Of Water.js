@@ -15,7 +15,7 @@
 // The third line of the input contains N space-separated integers, b[0], b[1], ..., b[N-1].
 
 // Constraints:-
-
+ 
 // 1 <= T <= 10
 
 // 2 <= N <= 10^5
