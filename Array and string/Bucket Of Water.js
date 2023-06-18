@@ -2,7 +2,7 @@
 
 // Alice hasNbuckets of water. Each bucket is characterized by two integers: the remaining water volumea[i]and the capacity of the bucketb[i](ai <= bi).Alice has chosen to pour all of the leftover water into only two buckets. PrintYESIf he can successfully do it, otherwise printNO.
 
- 
+  
 // Input
 // Input Format:- 
 
