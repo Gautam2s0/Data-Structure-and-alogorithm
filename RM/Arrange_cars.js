@@ -14,7 +14,7 @@
  
 // The first line of each testcase contains the number of cars n.
 
-// The second line of each testcase contains the n integers from 1 to n in some order.
+// The second line of each testcase contains the n integers from 1 to n in some order. 
 
 // Constraints
 // 1 ≤ t ≤ 10^4
