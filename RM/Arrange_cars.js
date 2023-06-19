@@ -10,7 +10,7 @@
 // Input Format  
 // The first line of the input contains an integer t — the number of test cases.
  
-// The next 2*t lines contain the description of the t testcases.
+// The next 2*t lines contain the description of the t testcases. 
  
 // The first line of each testcase contains the number of cars n.
 
