@@ -11,7 +11,7 @@
 // The first line of the input contains an integer t — the number of test cases. 
  
 // The next 2*t lines contain the description of the t testcases. 
- 
+  
 // The first line of each testcase contains the number of cars n.
 
 // The second line of each testcase contains the n integers from 1 to n in some order. 
