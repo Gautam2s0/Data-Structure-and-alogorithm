@@ -21,7 +21,7 @@
 #     assert nums[i] == expectedNums[i];
 # }
 
-If all assertions pass, then your solution will be accepted.
+# If all assertions pass, then your solution will be accepted.
 
  
 
