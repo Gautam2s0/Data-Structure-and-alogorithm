@@ -38,3 +38,14 @@ If all assertions pass, then your solution will be accepted.
 # Explanation: Your function should return k = 5, with the first five elements of nums containing 0, 0, 1, 3, and 4.
 # Note that the five elements can be returned in any order.
 # It does not matter what you leave beyond the returned k (hence they are underscores).
+
+
+ def removeElement(self, nums: List[int], val: int) -> int:
+       i=0;
+       while i<len(nums):
+           if nums[i]==val:
+               nums.pop(i)
+               i-=1;
+           i+=1
+       return len(nums) 
+      
