@@ -31,3 +31,16 @@
 # Explanation: The arrays we are merging are [] and [1].
 # The result of the merge is [1].
 # Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
+
+# #######################################################################################################################
+
+
+def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        j=0
+        for i in range(m,m+n):
+           nums1[i]=nums2[j]
+           j+=1
+        nums1.sort()
