@@ -19,7 +19,7 @@
 # 13
 # Sample Output 1
 
-# Yes 
+# Yes  
 # Hint
 
 # In the sample test case, the value stored innum = 13. Since,13is a prime number, the output isYes
