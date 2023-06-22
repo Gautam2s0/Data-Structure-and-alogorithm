@@ -18,7 +18,7 @@
 
 # 13
 # Sample Output 1
-
+ 
 # Yes   
 # Hint
 
