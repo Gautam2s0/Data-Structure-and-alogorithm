@@ -15,7 +15,7 @@
 # If the value stored innum, is a prime number printYes, else printNo
 
 # Sample Input 1 
-
+ 
 # 13
 # Sample Output 1 
  
