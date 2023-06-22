@@ -9,7 +9,7 @@
 # Note : A prime number is a number, that is divisible by only 1 and the number itself
 
 # Input
-# The first and the only line of the input contains the value stored innum
+# The first and the only line of the input contains the value stored innum 
 
 # Output
 # If the value stored innum, is a prime number printYes, else printNo
