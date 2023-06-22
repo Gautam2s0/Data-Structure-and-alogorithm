@@ -2,7 +2,7 @@
 
 # You are given a number stored in a variable with the namenum
 
-# Check if the number is a prime number or not
+# Check if the number is a prime number or not 
 
 # If the value stored innum, is a prime number printYes, else printNo
 
