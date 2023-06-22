@@ -12,7 +12,7 @@
 # The first and the only line of the input contains the value stored innum 
 
 # Output
-# If the value stored innum, is a prime number printYes, else printNo
+# If the value stored innum, is a prime number printYes, else printNo 
 
 # Sample Input 1 
  
