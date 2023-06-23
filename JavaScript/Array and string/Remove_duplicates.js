@@ -16,6 +16,20 @@ Output Description
 
 output a single integer x, i.e the number of unique elements in the array and in the next line print the x unique elements.
 
+  Sample Input 1
+
+2
+3
+1 1 2
+4
+1 1 3 3
+Sample Output 1
+
+2
+1 2
+2
+1 3
+
 
 
 
