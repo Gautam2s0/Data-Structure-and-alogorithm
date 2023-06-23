@@ -1,4 +1,25 @@
+Description
 
+You are given an unsorted array of n elements and an integer k, you need to rotate the array by k units towards right direction ( => ).
+
+
+Input Description
+
+In the first line, we have $T$, the number of testcases.
+For Every testcase, We have Two Lines of Input.
+1. We have $N$ and $K$.
+2. $N$ Integers of array separated by space.
+
+Constraints
+
+1<=T<=10
+1<=N<=1000
+0<=K<=1000
+1 <= A[i] <= 1000000
+
+Output Description
+
+output N elements, elements of the array , rotated by K units
 
 const rotate=(n,k,arr)=>{
   let unit=k%n
