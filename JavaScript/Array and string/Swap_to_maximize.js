@@ -28,7 +28,39 @@
 
 // 1 ≤ yi ≤ 30
 
+// Sample Input 1
+
+// Copy
+
+// 5
+// 2 1
+// 1 2
+// 3 4
+// 5 5
+// 5 5 6 6 5
+// 1 2 5 4 3
+// 5 3
+// 1 2 3 4 5
+// 10 9 10 10 9
+// 4 0
+// 2 2 4 3
+// 2 4 2 3
+// 4 4
+// 1 2 2 1
+// 4 4 5 4
+// Sample Output 1
+
+// Copy
+
+// 6
+// 27
+// 39
+// 11
+// 17
+
+
 
 // Output Description
 
 // For each test case, print the answer — the maximum possiblesum he can obtain in the array Xhe can do no more than kswaps.
+
