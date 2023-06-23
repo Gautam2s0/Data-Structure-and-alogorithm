@@ -21,6 +21,26 @@ Output Description
 
 output N elements, elements of the array , rotated by K units
 
+Sample Input 1
+
+Copy
+
+3
+3 1
+1 2 3
+2 2
+1 2
+2 3
+1 2
+Sample Output 1
+
+Copy
+
+3 1 2
+1 2
+2 1
+
+
 const rotate=(n,k,arr)=>{
   let unit=k%n
   let r=arr.splice(n-unit,n)
