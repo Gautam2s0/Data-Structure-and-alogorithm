@@ -64,3 +64,20 @@
 
 // For each test case, print the answer — the maximum possiblesum he can obtain in the array Xhe can do no more than kswaps.
 
+// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+const max=(n,k,nick,neel)=>{
+  let sum=0;
+  nick.sort((a,b)=>a-b)
+  neel.sort((a,b)=>b-a)
+  for(let i=0;i<n;i++){
+    if(k>0 && nick[i]<neel[i]){
+      sum+=neel[i]
+      k--
+    }
+    else{
+       sum+=nick[i]
+    }
+  }
+  console.log(sum)
+}
