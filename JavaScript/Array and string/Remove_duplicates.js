@@ -1,3 +1,26 @@
+Description
+
+Given an array of n integers, the array is sorted. You have to remove the duplicates, print only unique elements, do it in place. i.e O(1) space
+
+
+Input Description
+
+1<=T<=10
+
+1<=N<=100000
+
+1<=Ai<=100000
+
+
+Output Description
+
+output a single integer x, i.e the number of unique elements in the array and in the next line print the x unique elements.
+
+
+
+
+
+
 const Rmdup=(n,arr)=>{
   let res={}
   for(let el of arr){
