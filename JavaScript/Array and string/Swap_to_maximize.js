@@ -81,3 +81,4 @@ const max=(n,k,nick,neel)=>{
   }
   console.log(sum)
 }
+
