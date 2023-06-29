@@ -25,6 +25,7 @@
 # In the sample test case, the value stored innum = 13. Since,13is a prime number, the output isYes
 
 
+
 def identifyPrime(n):
   #write Code
   result="Yes"
