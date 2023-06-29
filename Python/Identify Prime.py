@@ -27,7 +27,6 @@
 
 
 def identifyPrime(n):
-  #write Code
   result="Yes"
   if n<2:
       print("No")
