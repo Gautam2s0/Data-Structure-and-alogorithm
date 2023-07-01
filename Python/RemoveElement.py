@@ -8,7 +8,7 @@
 
 # The judge will test your solution with the following code:
 
-# int[] nums = [...]; // Input array
+# int[] nums = [...]; // Input array 
 # int val = ...; // Value to remove
 # int[] expectedNums = [...]; // The expected answer with correct length.
 #                             // It is sorted with no values equaling val.
