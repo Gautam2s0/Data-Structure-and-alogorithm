@@ -6,7 +6,6 @@
 
 
 
-
 // The first  students arrived on. The last  were late. The threshold is  students, so class will go on. Return YES.
 
 // Note: Non-positive arrival times () indicate the student arrived early or on time; positive arrival times () indicate the student arrived  minutes late.
