@@ -10,7 +10,7 @@ int main()
   printf("%hu",b);
   // the value of unsigned int is not in range of 0 to 65535 so it will print start value that is 0
  printf("%hu",a);
-  // the value of c unsigned int is not in range of 0 to 65535 but it try to find in reverse direction(like -1,-2,..) it will find 65535 so it will print 65535 
+  // the value of c unsigned int is not in range of 0 to 65535 but it try to find in reverse direction(like -1,-2,..) it will find 65526 after 10 position in reverse so it will print 65526
 
     return 0;
 }
