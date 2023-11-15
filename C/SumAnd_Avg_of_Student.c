@@ -2,7 +2,8 @@
 #include <string.h>
 
 int main(){
-    int marks[5],i,j,sum=0,avg=0;
+    int marks[5],i,sum=0;
+    float avg=0;
     printf("Enter the students marks: ");
     for ( i = 0; i < 5; i++)
     {
@@ -16,7 +17,7 @@ int main(){
     avg=sum/5;
 
     printf("Sum of All student marks = %d",sum);
-    printf("Average of all student marks = %d",avg);
+    printf("Average of all student marks = %f",avg);
 
     return 0;
 
