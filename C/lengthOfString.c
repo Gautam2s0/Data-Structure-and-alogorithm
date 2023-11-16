@@ -17,7 +17,6 @@ void main(){
         ch++;
 
     }
-    
     printf("Length Of String is %d ",l);
     
 
