@@ -6,6 +6,8 @@ void main(){
     int *q;
     p=&a;
     q=&b;
-    printf("%d\n",*p);
-    printf("%d",q);
+    printf("Address of a= %d\n",p);
+    printf("Address of b= %d\n",q);
+    printf("Value of a= %d\n",*p);
+    printf("Value of b= %d\n",*q);
 }
