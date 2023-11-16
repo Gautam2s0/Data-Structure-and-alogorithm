@@ -1,7 +1,7 @@
 #include  <stdio.h>
 #include <string.h>
 
-int main(){
+void main(){
     int marks[5],i,sum=0;
     float avg=0;
     printf("Enter the students marks: ");
@@ -19,6 +19,6 @@ int main(){
     printf("Sum of All student marks = %d",sum);
     printf("Average of all student marks = %f",avg);
 
-    return 0;
+    
 
 }

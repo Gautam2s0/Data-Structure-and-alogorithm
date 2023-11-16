@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 void  main(){
-    int mat1[2][3],mat2[3][2],mat3[3][3],mult=1,i,j,k=0;
+    int mat1[2][3],mat2[3][2],mat3[2][2],mult=1,i,j,k=0;
     printf("Enter the element of first matrix which is 2x3 : ");
     for(i=0;i<2;i++){
         for(j=0;j<3;j++){
@@ -26,4 +27,6 @@ void  main(){
         }
         printf("\n"); 
     }
+
+   
 }
