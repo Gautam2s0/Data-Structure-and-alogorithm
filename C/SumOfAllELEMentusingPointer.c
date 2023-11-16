@@ -20,6 +20,4 @@ void main(){
     }
     printf("Sum Of array is %d ",sum);
 
-    
-
 }
