@@ -3,10 +3,15 @@
 #define MAX 5 
 void main(){
     int arr[MAX];
-    int i;
+    int *rev, i;
+    rev=&arr[MAX-1];
     printf("Enter element of Array : ");
     for(i=0;i<MAX;i++){
-        
+        scanf("%d",&arr[i]);
+    }
+    for(i=*rev;i>=0;i--){
+        printf("%d\t",rev);
+        rev++;
     }
 
 }
