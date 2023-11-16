@@ -9,9 +9,9 @@ void main(){
     for(i=0;i<MAX;i++){
         scanf("%d",&arr[i]);
     }
-    for(i=*rev;i>=0;i--){
-        printf("%d\t",rev);
-        rev++;
+    for(i=*rev;i>0;i--){
+        printf("%d\t",*rev);
+        rev--;
     }
 
 }
