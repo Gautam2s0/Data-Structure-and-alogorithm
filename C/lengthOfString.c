@@ -10,12 +10,14 @@ void main(){
     fgets(str,MAX,stdin);
     ch=&str; // base address of str or address of first character;
 
+
 // *ch =value or address of every character in string  
     while(*ch!='\0'){
         l++;
         ch++;
 
     }
+    
     printf("Length Of String is %d ",l);
     
 
