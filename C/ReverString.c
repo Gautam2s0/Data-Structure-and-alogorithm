@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<string.h>
-
+// using swaping
 void main(){
     char string [30]="Gautam";
     int i=0,l;
