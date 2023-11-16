@@ -5,5 +5,5 @@ void main(){
     int *p,*q;
     p=&a;
     q=&b;
-    printf("%d",p)
+    printf("%d",p);
 }
