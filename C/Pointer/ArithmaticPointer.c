@@ -25,5 +25,10 @@ void  main(){
     printf("Increment %d \n",*p++);
     printf("Increment %d \n",*++p);
     printf("Decrement %d %d %d \n",*--q,*--q,*--q); // evaluate right to left
+    printf("p = %d\n",*p);
+    printf("%d\n",*q-3);
+    printf("%d\n",*--q+5);
+    printf("%d\n",*p+*q);
+
     
 }
