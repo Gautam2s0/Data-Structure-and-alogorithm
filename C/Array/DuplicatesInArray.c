@@ -16,8 +16,7 @@ int main(){
     for(j=i+1;j<n;j++){
         if(array[i]==array[j]){
             printf(" %d ",array[i]);
-        }
-
+        } 
     }
    }
 
