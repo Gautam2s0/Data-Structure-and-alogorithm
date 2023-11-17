@@ -11,6 +11,15 @@
 
 #include <stdio.h>
 int main(){
+    int n=7,i,j , array[]={1, 2, 3, 6, 3, 6, 1};
+   for(i=0;i<n;i++){
+    for(j=i+1;j<n;j++){
+        if(array[i]==array[j]){
+            printf(" %d ",array[i]);
+        }
+
+    }
+   }
 
     return 0;
 }
