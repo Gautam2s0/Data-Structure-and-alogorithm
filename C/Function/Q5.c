@@ -1,13 +1,14 @@
-void f(int *p,int* q)
+void f(int *p, int *q)
 {
-    p=q;
-    *p=2;
+    p = q;
+    *p = 2;
 }
-int i=0,j=1;
-int main(){
-    
-    f(&i,&j);
-    printf("%d %d\n",i,j);
+int i = 0, j = 1;
+int main()
+{
+
+    f(&i, &j);
+    printf("%d %d\n", i, j);
     getchar();
     return 0;
 }
