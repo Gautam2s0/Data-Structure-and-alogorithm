@@ -21,3 +21,14 @@ void main(){
     max=largestNum(arr,5);
     printf("Largest number is : %d",max);
 }
+int largestNum(int arr[],int size){
+    int max=0,i;
+    for(i=0;i<size;i++){
+        if(arr[i]>max){
+            max=arr[i];
+        }
+
+    }
+    return max;
+
+}
