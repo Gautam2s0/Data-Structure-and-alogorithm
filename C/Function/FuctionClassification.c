@@ -1,11 +1,10 @@
 // FUNCTION CLASSIFICATION
-// 1. NO AGRUMEN WITHOUT RETURN TYPE 
-// 2. NO ARGUMENT WITH RETURN TYPE 
-// 3. WITH ARGUMENT WITHOUT RETURN TYPE 
-// 4. WITH ARGUMENT WITH RETURN TYPE 
+// 1. NO AGRUMEN WITHOUT RETURN TYPE
+// 2. NO ARGUMENT WITH RETURN TYPE
+// 3. WITH ARGUMENT WITHOUT RETURN TYPE
+// 4. WITH ARGUMENT WITH RETURN TYPE
 
-//  *******************    NO AGRUMEN WITHOUT RETURN TYPE  ********************** 
-
+//  *******************    NO AGRUMEN WITHOUT RETURN TYPE  **********************
 
 //  #include <stdio.h>
 
@@ -18,7 +17,6 @@
 // }
 
 // *******************  NO ARGUMENT WITH RETURN TYPE  *************************
-
 
 // #include <stdio.h>
 
@@ -34,16 +32,31 @@
 
 // *******************  WITH ARGUMENT WITHOUT RETURN TYPE   *************************
 
+// #include <stdio.h>
+// void func(int,int);
+// void main(){
+//     int x=10,y=20;
+//     func(x,y);
+//     printf("\nend");
+// }
+
+// void func(int x,int y){
+//   printf("sum =%d",x+y);
+// }
+
+// *******************  WITH ARGUMENT WITH RETURN TYPE   *************************
 
 #include <stdio.h>
-void func(int,int);
-void main(){
-    int x=10,y=20;
-    func(x,y);
-    printf("\nend");
+int func(int, int);
+void main()
+{
+    int p, x = 10, y = 20;
+    p = func(x, y);
+
+    printf("sum=%d", p);
 }
 
-void func(int x,int y){
-  printf("sum =%d",x+y);
+int func(int x, int y)
+{
+    return x + y;
 }
-
