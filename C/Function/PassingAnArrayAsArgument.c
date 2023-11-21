@@ -9,8 +9,9 @@ void main()
 }
 
 float avg(int marks[],int a){
+    // Here marks  behave as an pointer 
     int i, sum=0;
-    float r;
+    float r=0;
     for(i=0;i<a;i++){
         sum+=marks[i];
     }
