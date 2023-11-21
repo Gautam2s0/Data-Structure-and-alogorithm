@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int* returnPointer(int[]); // pointer type function
 
 void main(){
@@ -11,7 +10,7 @@ void main(){
 }
 
 int* returnPointer(int a[]){
-    // function will return pointer not a value
+    // function will return pointer not a value 
     a=a+2;
     return a;
 }
