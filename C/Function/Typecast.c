@@ -1,3 +1,8 @@
+// typecasting ==> changing data type one to another 
+// syntax ==>: 
+            //  new_datatype *new_pointerName=(new_dataype *)original_pointer
+
+
 #include <stdio.h>
     int main()
     {
