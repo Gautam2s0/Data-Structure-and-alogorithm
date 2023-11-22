@@ -66,20 +66,31 @@
 // In summary, the code demonstrates the use of function pointers in C. The foo function returns a function pointer to myfoo, and this function pointer is stored in fooptr. Later, fooptr is used to call the myfoo function with the argument 10. As a result, "11" is printed to the console.
 
 // *************************************************************************************************************
+// #include <stdio.h>
+//     void f(int (*x)(int));
+//     int myfoo(int i);
+//     int (*foo)(int) = myfoo;
+//     int main()
+//     {
+//         f(foo(10));
+//     }
+//     void f(int (*i)(int))
+//     {
+//         i(11);
+//     }
+//     int myfoo(int i)
+//     {
+//         printf("%d\n", i);
+//         return i;
+//     }
+
+// ************************************************************************************
+
 #include <stdio.h>
-    void f(int (*x)(int));
-    int myfoo(int i);
-    int (*foo)(int) = myfoo;
     int main()
     {
-        f(foo(10));
-    }
-    void f(int (*i)(int))
-    {
-        i(11);
-    }
-    int myfoo(int i)
-    {
-        printf("%d\n", i);
-        return i;
+        int i = 10;
+        void *p = &i;
+        printf("%f\n", *(float*)p);
+        return 0;
     }
