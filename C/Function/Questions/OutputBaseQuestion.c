@@ -45,7 +45,7 @@
 //         printf("%d\n", i + 1);
 //     }
 
-    // o/p = 11
+// o/p = 11
 
 // Function Declarations:
 
@@ -66,35 +66,51 @@
 // In summary, the code demonstrates the use of function pointers in C. The foo function returns a function pointer to myfoo, and this function pointer is stored in fooptr. Later, fooptr is used to call the myfoo function with the argument 10. As a result, "11" is printed to the console.
 
 // *************************************************************************************************************
-// #include <stdio.h>
-//     void f(int (*x)(int));
-//     int myfoo(int i);
-//     int (*foo)(int) = myfoo;
-//     int main()
-//     {
-//         f(foo(10));
-//     }
-//     void f(int (*i)(int))
-//     {
-//         i(11);
-//     }
-//     int myfoo(int i)
-//     {
-//         printf("%d\n", i);
-//         return i;
-//     }
+#include <stdio.h>
+    void f(int (*x)(int));
+    int myfoo(int i);
+    int (*foo)(int) = myfoo;
+    int main()
+    {
+        f(foo(10));
+    }
+    void f(int (*i)(int))
+    {
+        i(11);
+    }
+    int myfoo(int i)
+    {
+        printf("%d\n", i);
+        return i;
+    }
 
 // ************************************************************************************
 
-#include <stdio.h>
-    int main()
-    {
-        int i = 18;
-        void *p = &i;
-        printf("%d\n", (int*)p);  //6422296 address of i
-         printf("%d\n", *(int*)p);  //18 value of i
-        printf("%f\n", *(float*)p); // 0.000000 float value which is present on location 6422296 || picking float value  
-        printf("%f\n", (float)*(float*)p); // 0.000000 float value which is present on location 6422296 || picking float value
-        printf("%f\n", (float)*(int*)p); // 18.000000 float value which is present on integer location  6422296
-        return 0;
-    }
+// #include <stdio.h>
+// int main()
+// {
+//     int i = 18;
+//     void *p = &i;
+//     printf("%d\n", (int *)p);           // 6422296 address of i
+//     printf("%d\n", *(int *)p);          // 18 value of i
+//     printf("%f\n", *(float *)p);        // 0.000000 float value which is present on location 6422296 || picking float value
+//     printf("%f\n", (float)*(float *)p); // 0.000000 float value which is present on location 6422296 || picking float value
+//     printf("%f\n", (float)*(int *)p);   // 18.000000 float value which is present on integer location  6422296
+//     return 0;
+// }
+
+
+//  #include <stdio.h>
+//     int main()
+//     {
+//         int i = 97, *p = &i;
+//         foo(&p);
+//         printf("%d ", *p);
+//         return 0;
+//     }
+//     void foo(int **p)
+//     {
+//         int j = 2;
+//         *p = &j;
+//         printf("%d ", **p);
+//     }
