@@ -14,9 +14,16 @@ void main(){
 }
 
 int Nsum(int num){
-    static int a=1;
-    if(num==1) return a;
-    else if(num<1) return 0;
-    a+=num;
-    Nsum(num-1);
+    // static int a=1;
+    // if(num==1) return a;
+    // else if(num<1) return 0;
+    // a+=num;
+    // Nsum(num-1);
+
+    // ************************* method 2****************
+
+    int a=0;
+    if(num==1) return 1;
+    a=num+Nsum(num-1);
+    return a;
 }
