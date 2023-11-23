@@ -27,7 +27,7 @@ int main(){
 
    // ********************************************************
    printf("Enter two number : ");
-   scanf("%d %d",&g1,g2);
+   scanf("%d %d",&g1,&g2);
     printf("GCD = %d\n",GCD(g1,g2));
     return 0;
 }
