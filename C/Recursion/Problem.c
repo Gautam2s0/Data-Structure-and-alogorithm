@@ -18,7 +18,7 @@ int main()
     // ************************************************************
      
     printf("Enter a Hailstone Number : ");
-    scanf("%d",hails);
+    scanf("%d",&hails);
     Hailstone(hails);
      
     return 0;
