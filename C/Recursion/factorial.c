@@ -9,9 +9,16 @@ void main(){
 }
 
 int fact(int num){
-    static int a=1;
-    if(num<1) return a;
-    a*=num;
-    fact(num-1);
+    // static int a=1;
+    // if(num<1) return a;
+    // a*=num;
+    // fact(num-1);
+
+    // ************************************************ method 2 *************************
+
+    int a=1;
+    if(num<1) return 1;
+    a=num*fact(num-1);
+    return a;
     
 }
