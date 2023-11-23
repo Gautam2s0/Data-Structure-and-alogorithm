@@ -4,19 +4,18 @@
 #include <string.h>
 #include <stdbool.h>
 
-bool palindrome(char str[],int len)
+void MulMatrix(int a[][],int b[][])
 {
-   static int i=0;
-    if(str[i]!=str[len-1]&&i<=len-1){
-        return false;
-    }
-    if(len-1==i||i>=len/2){
-        return true;
-    }
-    
-    i++;
-    len--;
-    palindrome(str,len);
+   int row=0,i,len,**p;
+   p=a;
+   len=sizeof(p[0])/sizeof(p[0][0]);
+   for(i=0;i<len;i++){
+    printf("%d\t",p[row][i]*p[i][row]);
+   }
+   row++;
+   printf("\n");
+
+   MulMatrix(a,b);
 }
 
 
@@ -24,12 +23,16 @@ void main(){
     // count(3);
     bool res;
     int len;
+    int a[2][3]={{1,2,3},{4,5,6}};
+    int b[3][2]={{1,2},{3,4},{5,6}};
     char str[60];
-    printf("Enter a string : ");
-    gets(str);
+    // printf("Enter a string : ");
+    // gets(str);
 
-    res=palindrome(str,strlen(str));
-    res?printf("Yes"):printf("False");
+    // res=palindrome(str,strlen(str));
+    // res?printf("Yes"):printf("False");
     // printf("sum = %d",print(50));
+
+    MulMatrix(a,b);
     
 }
