@@ -5,7 +5,7 @@
 struct StructurePointer
 {
    int num;
-   char name[20];
+   char name;
 };
 
 struct StructurePointer s;
@@ -13,7 +13,7 @@ struct StructurePointer s;
 
 void main(){
     s.num=30;
-    s.name="Gautam";
+    s.name='G';
     struct StructurePointer *ptr=&s;
-    printf("Number = %d\nName = %s",ptr->num,ptr->name);
+    printf("Number = %d\nName = %c",ptr->num,ptr->name);
 }
