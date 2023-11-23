@@ -9,6 +9,15 @@ void count(int n){
     printf("%d\n",d);
 }
 
+int print(int n){
+    int i=51,sum=0;
+    if(n<1) return;
+    printf("%d\n",i-n);
+    // i--;
+    sum=n+print(n-1);
+}
+
 void main(){
-    count(3);
+    // count(3);
+    printf("sum = %d",print(50));
 }
