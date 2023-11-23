@@ -8,6 +8,7 @@ void count(int n){
     if(n>1) count(n-1);
     printf("%d\n",d);
 }
+
 void main(){
     count(3);
 }
