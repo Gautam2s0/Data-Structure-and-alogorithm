@@ -3,6 +3,11 @@
 // But unlike structures, all the members in the C union are stored in the same memory location.
 // Due to this, only one member can store data at the given instance.
 
+// In union if we have three member value first two value will override by third, so we can access only one value at the time
+// this is main disadvantage of union.
+// union consume less memory as compare to structure.
+// Union and structure both are same only difference is the memory allocation.
+
 // union union_name {
 //     datatype member1;
 //     datatype member2;
