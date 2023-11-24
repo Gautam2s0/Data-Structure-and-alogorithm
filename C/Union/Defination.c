@@ -29,10 +29,13 @@ int main()
 
     // initializing the union member
     var1.member1 = 15;
-    var1.member2 = 'c';
+    var1.member2 = 'a';
 
-    printf("The value stored in member1 = %d",
+    printf("The value stored in member1 = %d\n",
            var1.member1);
+    // if here only present member1 then it give 15, 
+    //if we assign member2 then it override the member1 in memory 
+    //that's why it give some garbge value or some ascii value 
     printf("The value stored in member2 = %c",
            var1.member2);
 
