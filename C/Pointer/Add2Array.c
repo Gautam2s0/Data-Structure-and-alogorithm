@@ -26,7 +26,8 @@ void main(){
         }
         printf("\n");
     }
-    copyStr(str1,str2);
+    // copyStr(str1,str2);
+    revStr(str1,str2,6);
     printf("str1 = %s\n",str1);
     printf("str2= %s",str2);
 }
@@ -73,3 +74,8 @@ void copyStr(char str1[],char str2[]){
     while(*(q++)=*(p++));
 }
 
+void revStr(char str1[],char str2[],int len){
+    char *p=str1,*q=str2+len-1;
+    while(*(q--)=*(p++));
+    str2[len]='\0';
+}
