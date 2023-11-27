@@ -4,6 +4,7 @@
 void main(){
     int mat1[MAX][MAX]={{1,2,3},{4,5,6},{7,8,9}},mat2[MAX][MAX]={{1,2,3},{4,5,6},{7,8,9}};
     int res[MAX][MAX]={{1,2,3},{4,5,6},{7,8,9}};
+    char str1[20]="Gautam",str2[20];
     int i,j;
     int (*m)[MAX]=mat1,(*n)[MAX]=mat2,(*r)[MAX];
     // for (i = 0; i < MAX; i++)
@@ -25,6 +26,9 @@ void main(){
         }
         printf("\n");
     }
+    copyStr(str1,str2);
+    printf("str1 = %s\n",str1);
+    printf("str2= %s",str2);
 }
 
 void matrixAdd(int mat1[][MAX], int mat2[][MAX], int res[][MAX])
@@ -63,3 +67,9 @@ void matrixMult(int mat1[][MAX], int mat2[][MAX], int res[][MAX])
         }
     }
 }
+
+void copyStr(char str1[],char str2[]){
+    char *p=str1,*q=str2;
+    while(*(q++)=*(p++));
+}
+
