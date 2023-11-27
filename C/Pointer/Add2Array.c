@@ -6,21 +6,60 @@ void main(){
     int res[MAX][MAX]={{1,2,3},{4,5,6},{7,8,9}};
     int i,j;
     int (*m)[MAX]=mat1,(*n)[MAX]=mat2,(*r)[MAX];
-    for (i = 0; i < MAX; i++)
-    {
-        for (j = 0; j < MAX; j++)
-        {
-            // res[i][j] = mat1[i][j] + mat2[i][j]
-            *(*(res + i) + j) = *(*(mat1 + i) + j) + *(*(mat2 + i) + j);
+    // for (i = 0; i < MAX; i++)
+    // {
+    //     for (j = 0; j < MAX; j++)
+    //     {
+    //         // res[i][j] = mat1[i][j] + mat2[i][j]
+    //         res[i][j] = *(*(m + i) + j) + *(*(n + i) + j);
             
-        }
-    }
-    
+    //     }
+    // }
+
+    matrixMult(mat1,mat2,res);
+
     for(i=0;i<MAX;i++){
         for(j=0;j<MAX;j++){
             
             printf("%d\t",*(*(res + i) + j));
         }
         printf("\n");
+    }
+}
+
+void matrixAdd(int mat1[][MAX], int mat2[][MAX], int res[][MAX])
+{
+    int i, j;
+
+
+    // Iterate over each matrix elements 
+    for (i = 0; i < MAX; i++)
+    {
+        for (j = 0; j < MAX; j++)
+        {
+            // res[i][j] = mat1[i][j] + mat2[i][j]
+            *(*(res + i) + j) = *(*(mat1 + i) + j) + *(*(mat2 + i) + j);
+        }
+    }
+}
+
+void matrixMult(int mat1[][MAX], int mat2[][MAX], int res[][MAX])
+{
+    int i, j,k,sum=0;
+
+
+    // Iterate over each matrix elements 
+    for (i = 0; i < MAX; i++)
+    {
+        for (j = 0; j < MAX; j++)
+        {
+            sum=0;
+            for (k = 0; k < MAX; k++)
+        {
+            // res[i][j] = mat1[i][j] + mat2[i][j]
+            sum += *(*(mat1 + i) + k) * *(*(mat2 + k) + j);
+        }
+        *(*(res + i) + j)=sum;
+        }
     }
 }
