@@ -1,15 +1,15 @@
-#include<stdio.h>
-int main() 
-{ 
-	struct bitfields
-	{
-		int bits_1: 2;
-		int bits_2: 4;
-		int bits_3: 2;
-		int bits_4: 3;
-	}bit = {2, 3, 8, 7};
-	printf("%d %d %d %d", bit.bits_1, bit.bits_2, bit.bits_3, bit.bits_4);
-}
+// #include<stdio.h>
+// int main() 
+// { 
+// 	struct bitfields
+// 	{
+// 		int bits_1: 2;
+// 		int bits_2: 4;
+// 		int bits_3: 2;
+// 		int bits_4: 3;
+// 	}bit = {2, 3, 8, 7};
+// 	printf("%d %d %d %d", bit.bits_1, bit.bits_2, bit.bits_3, bit.bits_4);
+// }
 
 
 // Explanation
@@ -70,3 +70,23 @@ int main()
 // 2's complement of 7(111) - 001
 
 // Finally the value is -1.
+
+
+
+#include<stdio.h>
+void fun(char *);
+int main()
+{
+	char *string = "function in c";
+	fun(string);
+	printf("%s", string);
+	return 0;
+}
+void fun(char *a)
+{
+	while(*a)
+{
+	*a += 1;
+	a++;
+}
+}
