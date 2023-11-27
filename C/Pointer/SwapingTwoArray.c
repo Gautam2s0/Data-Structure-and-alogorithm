@@ -1,6 +1,7 @@
 #include <stdio.h>
 #define MAX 5
 
+void swapArray(int[],int[],int);
 
 void main(){
     int a1[MAX],a2[MAX];
@@ -31,7 +32,8 @@ void main(){
     }
  
  
-    swap(&a1,&a2,MAX);
+    // swap(&a1,&a2,MAX);
+    swapArray(a1,a2,MAX);
     
 
     printf("\n*********************************After Swap ********************************\n");
@@ -61,4 +63,30 @@ void swap(int *a[],int* b[],int len){
     }
     
 
+}
+
+void swapArray(int * sourceArr, int * destArr, int size)
+{
+    // Pointer to last element of source array
+    int * sourceArrEnd = (sourceArr + (size - 1));
+
+    // Pointer to last element of destination array
+    int * destArrEnd   = (destArr + (size - 1));
+
+
+    /*
+     * Swap individual element of both arrays
+     */
+    while(sourceArr <= sourceArrEnd && destArr <= destArrEnd)
+    {
+        *sourceArr ^= *destArr;
+        *destArr   ^= *sourceArr;
+        *sourceArr ^= *destArr;
+
+        // Increment source array to point to next element
+        sourceArr++;
+
+        // Increment destination array to point to next element
+        destArr++;
+    }
 }
