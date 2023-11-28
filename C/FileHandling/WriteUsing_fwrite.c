@@ -11,7 +11,7 @@ struct  bootk
 
 void main(){
     FILE *fp;
-    fp=fopen("f2.dat","wb");
+    fp=fopen("f2.dat","ab");
     printf("Enter the Book Id, Title and Price ");
     scanf("%d",&b1.bookId);
     fflush(stdin);
