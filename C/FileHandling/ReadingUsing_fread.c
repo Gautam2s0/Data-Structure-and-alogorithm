@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+// fread is used to read in binary mode
 struct ReadingUsing_fread
 {
    int BookId;

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// Fwrite is used to write in file in binary  mode;
 struct  bootk
 {
    int bookId;
