@@ -4,6 +4,7 @@
 void fun(int *a)
 {
     a = (int *)malloc(sizeof(int));
+    
 }
 
 int main()
@@ -27,20 +28,20 @@ int main()
 // Here is a corrected version of your code:
 
 
-# include<stdio.h>
-# include<stdlib.h>
+// # include<stdio.h>
+// # include<stdlib.h>
   
-void fun(int **a)
-{
-    *a = (int*)malloc(sizeof(int));
-}
+// void fun(int **a)
+// {
+//     *a = (int*)malloc(sizeof(int));
+// }
   
-int main()
-{
-    int *p;
-    fun(&p);  // Pass the address of the pointer
-    *p = 6;
-    printf("%d", *p);
-    free(p);  // Free the allocated memory
-    return(0);
-}
+// int main()
+// {
+//     int *p;
+//     fun(&p);  // Pass the address of the pointer
+//     *p = 6;
+//     printf("%d", *p);
+//     free(p);  // Free the allocated memory
+//     return(0);
+// }
