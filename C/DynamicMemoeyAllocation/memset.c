@@ -92,3 +92,9 @@ int main()
 	return 0; 
 } 
 // O/P garbage value or address
+
+// Note that the above code doesn’t set array values to 10 
+//as memset works character by character and an integer contains more than one bytes (or characters).
+
+// However, if we replace 10 with -1, we get -1 values. 
+//Because representation of -1 contains all 1s in case of both char and int.
