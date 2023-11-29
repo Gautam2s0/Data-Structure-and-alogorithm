@@ -5,15 +5,15 @@
 
 void ButtonClick(void);
 void SensorCatch(void);
-void TimerExpire(void);
+void TimerSession(void);
 void Defaut(void);
     
 
 // Array of pointers to callback functions
 //declaring an array of function pointers named EventHandler, 
 //and each element of this array points to a function that takes no parameters (void parameters). 
-//The functions are ButtonClick, TimerExpire, SensorCatch, and Default.
-void (*EventHandler[])(void)={ButtonClick,TimerExpire,SensorCatch,Defaut};
+//The functions are ButtonClick, TimerSession, SensorCatch, and Default.
+void (*EventHandler[])(void)={ButtonClick,TimerSession,SensorCatch,Defaut};
 
 
 //Function that triggers events based on user input
@@ -31,7 +31,7 @@ void Events(int event){
 void main(){
     int i;
     printf("\nEnter a Number for Event Handler\n");
-    printf("0 for ButtonClick\n1 for TimerExpire\n2 for SensorCatch\n: ");
+    printf("0 for ButtonClick\n1 for TimerSession\n2 for SensorCatch\n: ");
     scanf("%d",&i);
     // calling Event Function
     // Events(i);
@@ -53,7 +53,7 @@ void SensorCatch(void){
 void Defaut(void){
     printf("Invalid operation triggered !");
 }
-void TimerExpire(void){
+void TimerSession(void){
     printf("Timer Expired !");
 };
 
