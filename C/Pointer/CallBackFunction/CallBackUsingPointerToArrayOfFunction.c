@@ -56,3 +56,10 @@ void Defaut(void){
 void TimerExpire(void){
     printf("Timer Expired !");
 };
+
+
+// Callback Functions: onButtonPress, onTimerExpiry, onSensorTrigger, and defaultAction are functions that act as callbacks for different events.
+
+// Array of Function Pointers: eventHandlers is an array of pointers to these callback functions.
+
+// Triggering Events: The Event function takes an integer event, uses it to index into the eventHandlers array, and calls the corresponding function. If the index is out of range, it calls defaultAction.
