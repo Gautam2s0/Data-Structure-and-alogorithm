@@ -1,3 +1,10 @@
+ 
+// calloc() requires two argument of type (count, size_type). 
+// the count will provide a number of elements, size_type is datatype size. 
+// when we are working will calloc() function, it creates the memory in block format and the initial value is zero.
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 int main ()
@@ -29,3 +36,4 @@ int main ()
     }
     return 0;
 }
+
