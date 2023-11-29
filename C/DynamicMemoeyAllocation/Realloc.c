@@ -23,6 +23,7 @@ int main ()
     // printf ("\n Enter array size2:");
     printf ("\nEnter reallocating size of array : ");
     scanf ("%d", &s2);
+    // changin the size of array at run time
     arr = (int *) realloc (arr, sizeof (int) * (s1 + s2));
     printf ("\nEnter %d values ", s2);
     for (i = s1; i < s1 + s2; i++)
