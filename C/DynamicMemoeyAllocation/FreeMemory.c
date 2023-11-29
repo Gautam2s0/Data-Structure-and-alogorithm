@@ -24,6 +24,16 @@ int main ()
     printf ("\n sum of List : %d", sum);
     printf ("\n Avg of List : %.2f", avg);
     free (arr);
+     printf ("\n After free Memory Array element\n");
+     for (i = 0; i < size; i++)
+    {
+        printf ("%d\t", arr[i]);
+    }
     arr = NULL;
+    printf ("\n After assigning NULL in Array \n");
+     for (i = 0; i < size; i++)
+    {
+        printf ("i=%d%d\t",i, arr[i]);
+    }
     return 0;
 }
