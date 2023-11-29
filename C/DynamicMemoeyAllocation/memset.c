@@ -70,27 +70,27 @@
 //*********************************************************************************************
 
 // C program to demonstrate working of memset() 
-#include <stdio.h> 
-#include <string.h> 
+// #include <stdio.h> 
+// #include <string.h> 
 
-void printArray(int arr[], int n) 
-{ 
-for (int i=0; i<n; i++) 
-	printf("%d ", arr[i]); 
-} 
+// void printArray(int arr[], int n) 
+// { 
+// for (int i=0; i<n; i++) 
+// 	printf("%d ", arr[i]); 
+// } 
 
-int main() 
-{ 
-	int n = 10; 
-	int arr[n]; 
+// int main() 
+// { 
+// 	int n = 10; 
+// 	int arr[n]; 
 
-	// Fill whole array with 100. 
-	memset(arr, 10, n*sizeof(arr[0])); 
-	printf("Array after memset()\n"); 
-	printArray(arr, n); 
+// 	// Fill whole array with 100. 
+// 	memset(arr, 10, n*sizeof(arr[0])); 
+// 	printf("Array after memset()\n"); 
+// 	printArray(arr, n); 
 
-	return 0; 
-} 
+// 	return 0; 
+// } 
 // O/P garbage value or address
 
 // Note that the above code doesn’t set array values to 10 
@@ -98,3 +98,27 @@ int main()
 
 // However, if we replace 10 with -1, we get -1 values. 
 //Because representation of -1 contains all 1s in case of both char and int.
+
+#include <stdio.h> 
+#include <string.h> 
+
+void printArray(char arr[], int n) 
+{ 
+for (int i=0; i<n; i++) 
+	printf("%c ", arr[i]); 
+} 
+
+int main() 
+{ 
+	int n = 10; 
+	char arr[n]; 
+
+	// Fill whole array with 100. 
+	memset(arr, 'c', n/2*sizeof(char)); 
+    memset(arr+n/2, 'd', n/2*sizeof(char)); 
+	printf("Array after memset()\n"); 
+	printArray(arr, n); 
+
+	return 0; 
+} 
+// O/p: cccccddddd
