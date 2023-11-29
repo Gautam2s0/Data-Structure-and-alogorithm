@@ -13,22 +13,22 @@ int main ()
     int *arr;
     int s1, s2, i;
     
-    printf ("\n Enter array size1:");
+    printf ("\nEnter array size1 : ");
     scanf ("%d", &s1);
     arr = (int *) calloc (s1, sizeof (int));
-    printf ("\n Enter %d values:", s1);
+    printf ("\nEnter %d values : ", s1);
     for (i = 0; i < s1; i++)
         scanf ("%d", &arr[i]);
         
     // printf ("\n Enter array size2:");
-    printf ("\n Enter reallocating size of array :");
+    printf ("\nEnter reallocating size of array : ");
     scanf ("%d", &s2);
     arr = (int *) realloc (arr, sizeof (int) * (s1 + s2));
-    printf ("\n Enter %d values", s2);
+    printf ("\nEnter %d values ", s2);
     for (i = s1; i < s1 + s2; i++)
         scanf ("%d", &arr[i]);
         
-    printf ("\n Array Data List :");
+    printf ("\nArray Data List : ");
     for (i = 0; i < s1 + s2; i++)
         printf ("%d ", arr[i]);
         
