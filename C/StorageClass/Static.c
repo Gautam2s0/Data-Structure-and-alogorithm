@@ -11,6 +11,7 @@
 
 
 #include <stdio.h>
+int x=1;
 int staticStorageClass(void);
 void main(){
     for(int i=0;i<5;i++){
