@@ -12,3 +12,15 @@
 
 // Scope of register class variable is block/function
 
+ #include <stdio.h>
+
+ void main(){
+    register int sum=0;
+    int a=0,b=1;
+    for(int i=0;i<10;i++){
+       
+        sum+=a++ + b++;
+    }
+    //here sum is frequently use so we can declare sum in register class also a,b can declare beacause they are also using frequently; 
+    printf("sum = %d",sum);
+ }
