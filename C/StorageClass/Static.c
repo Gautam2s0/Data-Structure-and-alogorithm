@@ -9,6 +9,7 @@
 //By default, they are assigned the value 0 by the compiler. 
 
 
+
 #include <stdio.h>
 int staticStorageClass(void);
 void main(){
@@ -17,7 +18,7 @@ void main(){
     }
 }
 int staticStorageClass(){
-    static i=3;
-    return i+=5;
+    static i=2;
+    return i+=i%2==0?3:5;
 
 }
