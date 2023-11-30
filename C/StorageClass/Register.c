@@ -12,7 +12,10 @@
 
 // Scope of register class variable is block/function
 
+// we can't declare register class variable a global;
+
  #include <stdio.h>
+
 
  void main(){
     register int sum=0;
