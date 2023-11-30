@@ -7,3 +7,17 @@
 //Their scope is local to the function to which they were defined. 
 //Global static variables can be accessed anywhere in the program. 
 //By default, they are assigned the value 0 by the compiler. 
+
+
+#include <stdio.h>
+int staticStorageClass(void);
+void main(){
+    for(int i=0;i<5;i++){
+        printf("%d\n",staticStorageClass());
+    }
+}
+int staticStorageClass(){
+    static i=3;
+    return i+=5;
+
+}
